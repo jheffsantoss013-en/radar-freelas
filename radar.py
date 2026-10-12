@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 with open("config.json") as f:
     config = json.load(f)
 
-TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TOKEN = os.getenv("AAGdYTsAajNK4xTpT3vgb5TmfUQikVLrr-c")
+CHAT_ID = os.getenv("8269959461")
 
 def enviar_telegram(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -42,3 +42,4 @@ if projetos:
     print("Enviado!")
 else:
     print("Nenhum projeto novo")
+
